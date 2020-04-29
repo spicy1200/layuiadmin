@@ -13,6 +13,4 @@ class IndexController extends Controller
         return '前台主页，暂无内容';
     }
 
-
-
 }
