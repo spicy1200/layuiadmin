@@ -30,3 +30,9 @@ Route::group(['namespace'=>'Home','prefix'=>'member','middleware'=>'member'],fun
     //退出
     Route::get('logout', 'MemberController@logout')->name('home.member.logout');
 });
+# 路由分组
+Route::group(['prefix' => 'Login'],function(){
+        Route::get("user",function(){
+            echo "spicy1200";
+        });
+});
