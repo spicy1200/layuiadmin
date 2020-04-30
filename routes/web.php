@@ -33,6 +33,6 @@ Route::group(['namespace'=>'Home','prefix'=>'member','middleware'=>'member'],fun
 # 路由分组
 Route::group(['prefix' => 'Login'],function(){
         Route::get("user",function(){
-            echo "spicy_4";
+            echo "spicy_6";
         });
 });
